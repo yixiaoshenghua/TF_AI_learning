@@ -1,6 +1,7 @@
 #%%
 import numpy as np
 import os, shutil
+
 # %%
 # prepare dataset
 original_dataset_dir = r'G:\Work\file\archive\training_set\training_set'
@@ -15,6 +16,7 @@ os.mkdir(valid_dir)
 test_dir = os.path.join(base_dir,'test')
 os.mkdir(test_dir)
 # %%
+# new folder
 for directory in ['train', 'valid', 'test']:
     for category in ['cats', 'dogs']:
         os.mkdir(base_dir+"\{}".format(directory)+"\{}".format(category))
