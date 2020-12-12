@@ -4,7 +4,7 @@ import os, shutil
 
 # %%
 # prepare dataset
-original_dataset_dir = r'G:\Work\file\archive\training_set\training_set'
+original_dataset_dir = r'G:\Work\file\archive\training_set\training_set' #路径替换
 
 base_dir = r'G:\Work\file\archive\cat_dog_small'
 os.mkdir(base_dir)
